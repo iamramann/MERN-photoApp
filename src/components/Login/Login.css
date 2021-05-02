@@ -1,0 +1,52 @@
+.body {
+  background-color: #ddd;
+}
+
+.appName {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: azure;
+}
+
+.loginImage {
+  width: 100%;
+  height: 450px;
+}
+
+.header {
+  background-color: var(--primary);
+}
+
+.eyeIcon {
+  position: absolute;
+  right: 11px;
+  bottom: 11px;
+  cursor: pointer;
+}
+
+.parent {
+  position: relative;
+}
+
+.margin-b {
+  margin-bottom: 5px;
+}
+
+.sixty-vh {
+  height: 60vh;
+}
+
+.list-none-cs {
+  list-style-type: none;
+}
+
+.clr {
+  /* background-color:; */
+  color: var(--dark);
+  border: solid 1px var(--sunset);
+  background-color: transparent;
+}
+
+.clr:hover {
+  background-color: var(--sunset);
+}

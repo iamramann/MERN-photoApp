@@ -1,0 +1,43 @@
+.appName {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: azure;
+}
+
+.loginImage {
+  width: 100%;
+  height: 315px;
+}
+
+.header {
+  background-color: var(--primary);
+}
+
+.eyeIcon {
+  position: absolute;
+  right: 11px;
+  bottom: 11px;
+  cursor: pointer;
+}
+
+img:hover {
+  opacity: 1;
+}
+
+.parent {
+  position: relative;
+}
+
+.margin-b {
+  margin-bottom: 5px;
+}
+
+.error-msg {
+  list-style-type: none;
+  font-size: 0.8rem;
+}
+
+.tick-icon {
+  margin-right: 15px;
+  color: limegreen;
+}

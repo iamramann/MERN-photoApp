@@ -1,0 +1,45 @@
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+  transition: 0.1s linear;
+}
+.navbar1 {
+  color: "#fff";
+  background-color: "#28a745";
+  border-color: "#2E4C80";
+  padding-left: "50px";
+  padding-right: "50px";
+  padding-top: "10px";
+  padding-bottom: "10px";
+  font-size: "1.2rem";
+}
+
+.nav-item {
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+  margin-left: 10px;
+}
+.nav-item:hover {
+  text-decoration: none;
+  color: wheat;
+}
+.nav-1 {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .nav-1 {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+
+  .w-80 {
+    width: 80%;
+  }
+}

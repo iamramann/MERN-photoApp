@@ -1,0 +1,46 @@
+.img {
+  width: 100px;
+  height: 100px;
+}
+.appName {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: azure;
+}
+.header {
+  background-color: var(--primary);
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+}
+
+.grey {
+  background-color: "red";
+}
+
+.user-text {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.dark {
+  background-color: #ddd;
+}
+
+.white {
+  background-color: #fff;
+}
+
+.min-vh {
+  min-height: 100vh;
+}
+
+.link {
+  color: rgb(45, 45, 136);
+}
+
+.link:hover {
+  text-decoration: underline;
+}

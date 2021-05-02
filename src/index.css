@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+:root {
+  --primary: #4e73df;
+  --Success: #1cc88a;
+  --info: #36b9cc;
+  --warning: #f6c23e;
+  --danger: #e74a3b;
+  --secondary: #858796;
+  --light: #f8f9fc;
+  --orange: #ff4500;
+  --sunset: #fd5e53;
+  --dark: #5a5c69;
+}
+
+textarea:hover,
+input:hover,
+textarea:active,
+input:active,
+textarea:focus,
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active {
+  outline: 0px !important;
+  -webkit-appearance: none;
+  box-shadow: none !important;
+  border: 1px solid #bbb !important;
+}
+
+/* Gradients */
+.gradient {
+  background: #dd5e89;
+  background: -webkit-linear-gradient(to right, #f7bb97, #dd5e89);
+  background: linear-gradient(to right, #f7bb97, #dd5e89);
+}
+
+.grad-3 {
+  background: #1488cc;
+  background: -webkit-linear-gradient(to right, #2b32b2, #1488cc);
+  background: linear-gradient(to right, #2b32b2, #1488cc);
+}
+
+.grad-2 {
+  background: #2b5876;
+  background: -webkit-linear-gradient(to right, #4e4376, #2b5876);
+  background: linear-gradient(to right, #4e4376, #2b5876);
+}
+
+.grad-1 {
+  background: #ff512f;
+  background: -webkit-linear-gradient(to right, #dd2476, #ff512f);
+  background: linear-gradient(to right, #dd2476, #ff512f);
+}
+
+.grad-4 {
+  background: #e6dada; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #274046,
+    #e6dada
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #274046,
+    #e6dada
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* fonts */
+.fs-cs-2 {
+  font-size: 2rem;
+}
+
+.fs-c-1 {
+  /* temp */
+  font-size: 1rem;
+}
+.fs-cs-1 {
+  font-size: 1rem;
+}
+.fs-5-cs {
+  font-size: 1.5rem;
+}
+
+.fs-12 {
+  font-size: 1.2rem;
+}
+
+/* cursor-styles */
+.cursor-ptr {
+  cursor: pointer;
+}
+
+img {
+  cursor: pointer;
+}
+
+img:hover {
+  opacity: 0.7;
+}

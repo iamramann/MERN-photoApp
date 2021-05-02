@@ -1,0 +1,133 @@
+#btn-label {
+  background-color: transparent;
+  padding: 0.5rem;
+  text-align: right;
+  font-weight: bold;
+  font-size: large;
+  font-family: sans-serif;
+  border-radius: 0.3rem;
+  color: var(--sunset);
+  border: solid 1px var(--sunset);
+  cursor: pointer;
+  margin-right: 10px;
+  margin-top: 1rem;
+}
+
+.opacity8 {
+  opacity: 0.8;
+  pointer-events: none;
+}
+
+.txt {
+  margin-top: 1rem;
+}
+
+.dlt {
+  /* color: rgb(255, 78, 78); */
+  color: #fff;
+}
+
+.dlt:hover {
+  /* opacity: 0.8; */
+  color: rgb(255, 78, 78);
+}
+
+.whitecs {
+  color: white;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.fw-cs-400 {
+  font-weight: 450;
+}
+
+#btn-label:hover {
+  background-color: var(--sunset);
+  border: solid 1px var(--sunset);
+  color: var(--white);
+}
+
+.bnt-style {
+  background-color: transparent;
+  padding: 0.5rem;
+  text-align: right;
+  font-weight: bold;
+  font-size: large;
+  font-family: sans-serif;
+  border-radius: 0.3rem;
+  color: var(--dark);
+  border: solid 1px var(--dark);
+  cursor: pointer;
+  margin-right: 10px;
+  margin-top: 1rem;
+}
+
+.bnt-style:hover {
+  background-color: var(--dark);
+  color: var(--white);
+}
+
+.avatar {
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+}
+
+.my-image {
+  width: 300px;
+  height: 300px;
+}
+
+.black {
+  color: #000;
+}
+
+.my-caption {
+  width: 100%;
+  font-size: 1rem;
+}
+.min-vh-x {
+  min-height: 70vh;
+}
+
+.red {
+  /* color: rgb(255, 78, 78); */
+  color: #fff;
+}
+
+.red:hover {
+  color: rgb(255, 78, 78);
+}
+
+.blue {
+  /* color: rgb(43, 167, 105); */
+  color: #fff;
+}
+.blue:hover {
+  color: rgb(43, 167, 105);
+}
+
+.grey {
+  color: rgb(89, 85, 85);
+}
+
+.ximg {
+  width: 55px;
+  height: 55px;
+}
+.hide {
+  display: none;
+}
+
+@media (max-width: 572px) {
+  .hide {
+    display: block;
+  }
+
+  /* body {
+    display: none;
+  } */
+}
